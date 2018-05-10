@@ -1,24 +1,30 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Here we will be taking different steps to play and with and test the Devise Gem.
+How far can we push it regarding User Authentication, Security, and even a little bit of Authorization functions
 
-Things you may want to cover:
+A few things we will cover & test:
 
-* Ruby version
+* Creating Devise models & migrations
 
-* System dependencies
+* Adding Devise to an existing User model
 
-* Configuration
+* Automatically generate password for users (simpler registration)
 
-* Database creation
+* Retain User Data after account Delete (soft delete)
 
-* Database initialization
+* Use Omniauth in a localized scope
 
-* How to run the test suite
+* OmniAuth: Testing
 
-* Services (job queues, cache servers, search engines, etc.)
+* Redirect to a specific page on successful sign in and sign out
 
-* Deployment instructions
+* Add an Admin role
+
+* Add a default role to a User
+
+* Send emails in background (Resque, Sidekiq and Delayed::Job)
+
+* AWS Cognito Federated Identity Authentication
 
 * ...
